@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form align="center" onsubmit="studForm()">
+        <font face="Arial" color="skyblue" size="20">Student Registration Form</font>
+        <br><br>
+
+        <label for="name">UserName:</label>
+        <input type="text" id="name" placeholder="Enter Your Name:">
+      <br><br>
+
+      <label for="fname">Father Nmae:</label>
+      <input type="text" id="fname" placeholder="Enter Your Father Name:">
+      <br><br>
+
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" placeholder="Enter Your Age:" >
+      <br><br>
+
+
+      <label for="gender">Gender:</label>
+<select id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Gender</option>
+</select>
+      <br><br>
+
+
+<label for="rollno">Rollno:</label>
+<input type="number" id="rollno" placeholder="Enter Your Roll No:">
+<br><br>
+
+
+<label for="email">Email:</label>
+<input type="email" placeholder="Enter Your Email:" id="email">
+<br><br>
+
+
+<label for="phone">Phone No:</label>
+<input type="tel" placeholder="Enter Your Phone Number" id="phone">
+<br><br>
+
+
+<label for="address">Address:</label>
+<textarea placeholder="Enter Your Correct Address" id="address"></textarea>
+<br><br>
+
+<label for="course">Course:</label>
+<select  id="course">
+    <option value="Frontend Development">Frontend Development</option>
+    <option value="Backend Development">Backend Development</option>
+    <option value="Full Stack Development">Full Stack Development</option>
+    <option value="Graphics Designing">Graphics Designing</option>
+    <option value="Ai and Chatbot">Ai and Chatbot</option>
+    <option value="others" selected>others</option>
+</select>
+<br><br>
+
+<button type="submit">Submit</button>
+    </form>
+    <br><br>
+
+    <!-- <div class="container" align="center">
+        <font face="Algerian" color="orange" size="20">Form Output</font>
+        <p id="one"></p>
+        <p id="two"></p>
+        <p id="three"></p>
+        <p id="four"></p>
+        <p id="five"></p>
+        <p id="six"></p>
+        <p id="seven"></p>
+        <p id="eight"></p>
+        <p id="nine"></p>
+        <p id="ten"></p>
+    </div> -->
+    <script src="app.js"></script>
+</body>
+</html>
